@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif; /* SETS THE FONT TO ARIAL WITH A BACKUP SANS-SERIF FONT */
+    text-align: center; /* CENTERS ALL TEXT CONTENT */
+    padding: 20px; /* ADDS PADDING AROUND THE BODY */
+    display: flex; /* USES FLEXBOX FOR LAYOUT */
+    flex-direction: column; /* STACKS CHILD ELEMENTS VERTICALLY */
+    align-items: center; /* CENTERS ITEMS HORIZONTALLY */
+    background-color: #b19393; /* SETS A LIGHT BACKGROUND COLOR FOR CONTRAST */
+}
+
+.form-container {
+    background-color: white; /* SETS THE BACKGROUND COLOR OF THE FORM BOX TO WHITE */
+    border: 1px solid #ccc; /* ADDS A LIGHT GRAY BORDER AROUND THE FORM */
+    border-radius: 8px; /* ROUNDS THE CORNERS OF THE FORM BOX */
+    padding: 20px; /* ADDS SPACE INSIDE THE FORM BOX */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* ADDS A SUBTLE SHADOW FOR A SLIGHT 3D EFFECT */
+    width: 300px; /* SETS A FIXED WIDTH FOR THE FORM BOX */
+    margin-bottom: 20px; /* ADDS SPACE BETWEEN THE FORM AND OTHER ELEMENTS BELOW IT */
+}
+
+button {
+    margin: 5px; /* ADDS SPACE AROUND THE BUTTONS */
+    padding: 10px 15px; /* SETS PADDING INSIDE THE BUTTONS */
+    font-size: 16px; /* SETS FONT SIZE FOR BUTTON TEXT */
+    cursor: pointer; /* CHANGES THE CURSOR TO A POINTER WHEN HOVERING OVER THE BUTTON */
+}
+
+select {
+    padding: 10px; /* ADDS PADDING INSIDE THE DROPDOWN MENU */
+    font-size: 16px; /* SETS FONT SIZE FOR THE SELECT DROPDOWN */
+}
+
+img {
+    margin-top: 20px; /* ADDS SPACE ABOVE THE IMAGE */
+    max-width: 100%; /* ENSURES THE IMAGE DOES NOT EXCEED THE CONTAINER WIDTH */
+    height: auto; /* MAINTAINS ASPECT RATIO WHEN RESIZING */
+    display: none; /* HIDES THE IMAGE INITIALLY UNTIL A SELECTION IS MADE */
+}

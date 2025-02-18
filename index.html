@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<!-- DECLARES THE DOCUMENT TYPE AND SETS THE LANGUAGE TO ENGLISH -->
+
+<head>
+    <meta charset="utf-8" />
+    <!-- SETS THE CHARACTER ENCODING TO UTF-8 FOR PROPER TEXT RENDERING -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ENSURES THE WEBPAGE IS RESPONSIVE AND ADAPTS TO DIFFERENT SCREEN SIZES -->
+
+    <title>Assignment 2 | COMP1073 Client-Side JavaScript</title>
+    <!-- DEFINES THE TITLE OF THE WEBPAGE, DISPLAYED ON THE BROWSER TAB -->
+
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- LINKS AN EXTERNAL CSS FILE FOR STYLING THE WEBPAGE -->
+
+    <script src="js/scripts.js" defer></script>
+    <!-- LINKS AN EXTERNAL JAVASCRIPT FILE AND DEFERS EXECUTION UNTIL THE HTML IS FULLY LOADED -->
+</head>
+
+<body>
+    <div class="form-container">
+        <!-- CONTAINER FOR FORM ELEMENTS, USING A CLASS FOR STYLING -->
+
+        <div>
+            <p id="myStudentId"></p>
+            <!-- PARAGRAPH ELEMENT WITH AN ID TO DISPLAY A STUDENT ID (LIKELY SET DYNAMICALLY BY JAVASCRIPT) -->
+        </div>
+
+        <div>
+            <label for="customNumber">Enter number from 1 to 100:</label>
+            <!-- LABEL FOR THE NUMBER INPUT FIELD, PROVIDING A DESCRIPTION FOR THE USER -->
+
+            <input id="customNumber" type="number" placeholder="" />
+            <!-- NUMBER INPUT FIELD WITH AN ID, ALLOWING USERS TO ENTER A NUMBER -->
+        </div>
+
+        <div>
+            <button class="custColor">Change custom color</button>
+            <!-- BUTTON WITH A CLASS FOR CHANGING TO A CUSTOM COLOR -->
+
+            <button class="randColor">Change random color</button>
+            <!-- BUTTON WITH A CLASS FOR CHANGING TO A RANDOM COLOR -->
+        </div>
+
+        <div>
+            <label for="imageSelect">Select Image</label>
+            <!-- LABEL FOR THE DROPDOWN MENU WHERE USERS CAN SELECT AN IMAGE -->
+
+            <select id="imageSelect">
+                <option value="">Please choose…</option>
+                <!-- DROPDOWN MENU WITH AN INITIAL DEFAULT OPTION -->
+            </select>
+        </div>
+    </div>
+
+    <div>
+        <img id="images" src="" alt="" />
+        <!-- IMAGE ELEMENT WITH AN ID, WHICH WILL DISPLAY THE SELECTED IMAGE -->
+    </div>
+</body>
+
+</html>
